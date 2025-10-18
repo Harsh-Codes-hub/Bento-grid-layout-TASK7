@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bento Grid</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="bento-container">
+      <section class="bento-left">
+        <div class="player">
+          <div class="player-top">
+            <span id="dropdown">
+              <i class="ri-arrow-down-s-line"></i>
+            </span>
+            <h3>Recently played</h3>
+            <span id="more">
+              <i class="ri-more-line"></i>
+            </span>
+          </div>
+          <div class="song-image">
+            <img src="./images/album-dynasty.jpg" alt="song-album" />
+          </div>
+          <div class="song-tile">
+            <div class="title-left">
+              <h2>I Was Made For Lovin'You</h2>
+              <h4>KISS</h4>
+            </div>
+            <div class="title-right">
+              <i class="ri-checkbox-circle-fill"></i>
+            </div>
+          </div>
+          <div class="song-timeline">
+            <div class="timeline-top">
+              <div class="filled-bar"></div>
+            </div>
+            <div class="timeline-bottom">
+              <span class="elapsed-time">1:08</span
+              ><span class="remaining-time">4:31</span>
+            </div>
+          </div>
+          <div class="player-controls">
+            <span id="shuffle"><i class="ri-shuffle-fill"></i></span>
+            <span id="back"><i class="ri-skip-back-fill"></i></span>
+            <span id="play-pause"><i class="ri-pause-fill"></i></span>
+            <span id="forward"><i class="ri-skip-forward-fill"></i></span>
+            <span id="timer"><i class="ri-timer-line"></i></span>
+          </div>
+          <div class="player-bottom">
+            <span id="speaker"><i class="ri-speaker-line"></i></span>
+            <span id="out"><i class="ri-logout-box-line"></i></span>
+          </div>
+        </div>
+      </section>
+      <section class="bento-right">
+        <div id="the-four" class="box">
+          <div id="member-group">
+            <div class="member">
+              <img src="./images/the-starchild.jpg" alt="The Starchild" />
+              <div class="overlay-gradient"></div>
+              <div class="name-group">
+                <h2 class="stage-name">The Starchild</h2>
+                <h3 class="real-name">Paul Stanley</h3>
+              </div>
+            </div>
+            <div class="member">
+              <img src="./images/the-demon.jpg" alt="The Demon" />
+              <div class="overlay-gradient"></div>
+              <div class="name-group">
+                <h2 class="stage-name">The Demon</h2>
+                <h3 class="real-name">Gene Simmons</h3>
+              </div>
+            </div>
+            <div class="member">
+              <img src="./images/the-spaceman.jpg" alt="The Spaceman" />
+              <div class="overlay-gradient"></div>
+              <div class="name-group">
+                <h2 class="stage-name">The Spaceman</h2>
+                <h3 class="real-name">Ace Frehley</h3>
+              </div>
+            </div>
+            <div class="member">
+              <img src="./images/the-catman.jpg" alt="The Catman" />
+              <div class="overlay-gradient"></div>
+              <div class="name-group">
+                <h2 class="stage-name">The Catman</h2>
+                <h3 class="real-name">Peter Criss</h3>
+              </div>
+            </div>
+            <div class="member">
+              <img src="./images/the-starchild.jpg" alt="The Starchild" />
+              <div class="overlay-gradient"></div>
+              <div class="name-group">
+                <h2 class="stage-name">The Starchild</h2>
+                <h3 class="real-name">Paul Stanley</h3>
+              </div>
+            </div>
+            <div class="member">
+              <img src="./images/the-demon.jpg" alt="The Demon" />
+              <div class="overlay-gradient"></div>
+              <div class="name-group">
+                <h2 class="stage-name">The Demon</h2>
+                <h3 class="real-name">Gene Simmons</h3>
+              </div>
+            </div>
+            <div class="member">
+              <img src="./images/the-spaceman.jpg" alt="The Spaceman" />
+              <div class="overlay-gradient"></div>
+              <div class="name-group">
+                <h2 class="stage-name">The Spaceman</h2>
+                <h3 class="real-name">Ace Frehley</h3>
+              </div>
+            </div>
+            <div class="member">
+              <img src="./images/the-catman.jpg" alt="The Catman" />
+              <div class="overlay-gradient"></div>
+              <div class="name-group">
+                <h2 class="stage-name">The Catman</h2>
+                <h3 class="real-name">Peter Criss</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="albums" class="box">
+          <div id="album-group">
+            <div class="album-box">
+              <img src="./images/album-kiss.jpg" alt="album-kiss" />
+              <div class="album-desc">
+                <h2 class="album-name">Kiss</h2>
+                <h3 class="album-release-year">1974</h3>
+              </div>
+            </div>
+            <div class="album-box">
+              <img src="./images/album-destroyer.jpg" alt="album-destroyer" />
+              <div class="album-desc">
+                <h2 class="album-name">Destroyer</h2>
+                <h3 class="album-release-year">1976</h3>
+              </div>
+            </div>
+            <div class="album-box">
+              <img src="./images/album-love-gun.jpg" alt="album-love-gun" />
+              <div class="album-desc">
+                <h2 class="album-name">Love Gun</h2>
+                <h3 class="album-release-year">1977</h3>
+              </div>
+            </div>
+            <div class="album-box">
+              <img src="./images/album-dynasty.jpg" alt="album-dynasty" />
+              <div class="album-desc">
+                <h2 class="album-name">Dynasty</h2>
+                <h3 class="album-release-year">1979</h3>
+              </div>
+            </div>
+            <div class="album-box">
+              <img
+                src="./images/album-hotter-than-hell.jpg"
+                alt="album-hotter-than-hell"
+              />
+              <div class="album-desc">
+                <h2 class="album-name">Hotter Than Hell</h2>
+                <h3 class="album-release-year">1974</h3>
+              </div>
+            </div>
+            <div class="album-box">
+              <img
+                src="./images/album-dressed-to-kill.jpg"
+                alt="album-dressed-to-kill"
+              />
+              <div class="album-desc">
+                <h2 class="album-name">Dressed To Kill</h2>
+                <h3 class="album-release-year">1975</h3>
+              </div>
+            </div>
+            <div class="album-box">
+              <img
+                src="./images/album-rock-and-roll-over.jpg"
+                alt="album-rock-and-roll-over"
+              />
+              <div class="album-desc">
+                <h2 class="album-name">Rock and Roll Over</h2>
+                <h3 class="album-release-year">1976</h3>
+              </div>
+            </div>
+            <div class="album-box">
+              <img
+                src="./images/album-creatures-of-the-night.jpg"
+                alt="album-creatures-of-the-night"
+              />
+              <div class="album-desc">
+                <h2 class="album-name">Creatures Of The Night</h2>
+                <h3 class="album-release-year">1982</h3>
+              </div>
+            </div>
+            <div class="album-box">
+              <img src="./images/album-revenge.jpg" alt="album-revenge" />
+              <div class="album-desc">
+                <h2 class="album-name">Revenge</h2>
+                <h3 class="album-release-year">1992</h3>
+              </div>
+            </div>
+            <div class="album-box">
+              <img src="./images/album-asylum.jpg" alt="album-asylum" />
+              <div class="album-desc">
+                <h2 class="album-name">Asylum</h2>
+                <h3 class="album-release-year">1985</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="latest" class="box">
+          <div class="latest-info">
+            <h2 id="end-date">December 2, 2023</h2>
+            <p id="end-detail">
+              KISS’s final concert at Madison Square Garden marked the end of
+              their touring era.
+            </p>
+          </div>
+          <div class="latest-info">
+            <h2 id="final-quote">Final Quote (Paul Stanley)</h2>
+            <p id="final-words">
+              The end of the road is the beginning of another road … We’re not
+              going anywhere. You’ll see us in all different things all the
+              time. We’ll see you in your dreams. We love you. Goodnight.
+            </p>
+          </div>
+          <div class="latest-info">
+            <h2 id="end-date">December 2, 2023</h2>
+            <p id="end-detail">
+              KISS’s final concert at Madison Square Garden marked the end of
+              their touring era.
+            </p>
+          </div>
+          <div class="latest-info">
+            <h2 id="final-quote">Final Quote (Paul Stanley)</h2>
+            <p id="final-words">
+              The end of the road is the beginning of another road … We’re not
+              going anywhere. You’ll see us in all different things all the
+              time. We’ll see you in your dreams. We love you. Goodnight.
+            </p>
+          </div>
+        </div>
+        <div id="metrics-achievements" class="box">
+          <div id="MA-group">
+            <div class="MAs">
+              <img src="./images/albums.jpg" alt="Albums" />
+              <div class="MA-desc">
+                <h2 class="MA-name">Album Sold</h2>
+                <h3 class="MA-d">Over Million</h3>
+              </div>
+            </div>
+            <div class="MAs">
+              <img src="./images/kiss-black-and-white.jpg" alt="Kiss Band" />
+              <div class="MA-desc">
+                <h2 class="MA-name">Years Active</h2>
+                <h3 class="MA-d">Since 1973, spanning 50+ years</h3>
+              </div>
+            </div>
+            <div class="MAs">
+              <img
+                src="./images/kiss-backstage-rock-hall-2014-billboard-650.jpg"
+                alt="kiss-backstage-rock-hall-2014"
+              />
+              <div class="MA-desc">
+                <h2 class="MA-name">Rock & Roll Hall of Fame</h2>
+                <h3 class="MA-d">Inducted in 2014</h3>
+              </div>
+            </div>
+            <div class="MAs">
+              <img src="./images/kiss-concert.jpg" alt="kiss concert" />
+              <div class="MA-desc">
+                <h2 class="MA-name">Countries Toured</h2>
+                <h3 class="MA-d">Performed in 40+ countries globally</h3>
+              </div>
+            </div>
+            <div class="MAs">
+              <img src="./images/golden-cd.jpg" alt="gold & platinum records" />
+              <div class="MA-desc">
+                <h2 class="MA-name">Gold & Platinum Records</h2>
+                <h3 class="MA-d">
+                  30+ Gold and 14 Platinum albums in the U.S.
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Dynamic-Visual" class="box">
+          <div class="overlay">
+            <span id="KISS-logo">&nbsp;KISS&nbsp;</span>
+            <img src="./images/82248292007-6038.png" alt="" />
+          </div>
+        </div>
+        <div id="fan-focus" class="box">
+          <div id="picture-gallery">
+            <div class="picture">
+              <img src="./images/kiss-fanart-1.jpg" alt="kiss-fanart" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-poster-1.jpg" alt="kiss-poster" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-concert-1.jpg" alt="kiss-concert" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-fanart-2.jpg" alt="kiss-fanart" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-poster-2.jpg" alt="kiss-poster" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-concert-2.jpg" alt="kiss-concert" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-fanart-3.jpg" alt="kiss-fanart" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-poster-3.jpg" alt="kiss-poster" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-concert-3.jpg" alt="kiss-concert" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-fanart-4.jpg" alt="kiss-fanart" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-poster-4.jpg" alt="kiss-poster" />
+            </div>
+            <div class="picture">
+              <img src="./images/kiss-concert-4.jpg" alt="kiss-concert" />
+            </div>
+          </div>
+          <h2>
+            Posters,<br />
+            Fan arts, & On-Stage
+          </h2>
+        </div>
+        <div id="big-logo" class="box">
+          <img src="./images/kiss-band-logo.png" alt="Kiss-logo" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
