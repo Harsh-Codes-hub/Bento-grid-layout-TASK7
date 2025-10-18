@@ -22,7 +22,7 @@ Featuring their iconic members, albums, and tour legacy, this layout blends **da
 ## 🌐 Live Demo / Review
 
 You can view and interact with the project here:  
-👉 [KISS — Bento Grid Music Interface Live Demo](https://harsh-codes-hub.github.io/Bento-Grid-TASK7/)
+👉 [KISS — Bento Grid Music Interface Live Demo](https://harsh-codes-hub.github.io/Bento-grid-layout-TASK7/)
 
 Step into the rock arena — scroll, hover, and experience the KISS vibe on every block. 🎸✨
 
