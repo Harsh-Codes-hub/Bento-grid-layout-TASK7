@@ -729,7 +729,7 @@ body {
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
-  background: #c0c0c0;
+  background: var(--kiss-black);
   animation: slidePictures 50s linear infinite;
 }
 #fan-focus #picture-gallery .picture img {
