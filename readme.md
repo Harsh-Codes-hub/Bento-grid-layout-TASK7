@@ -29,11 +29,13 @@ Step into the rock arena — scroll, hover, and experience the KISS vibe on ever
 ---
 
 ## 🗂️ File Structure
-```
+``` bash
 Bento-Grid-TASK7/
 │
 ├── index.html # Main HTML structure for bento grid layout
 ├── style.css # CSS styling with glass effect, grid, and animations
+├── style.scss # SCSS file containing all styles
+│
 │
 ├── /images/ # Images used in layout
 │ ├── album-cover.jpg
@@ -45,7 +47,7 @@ Bento-Grid-TASK7/
 │ ├── apple-touch-icon.png
 │ └── site.webmanifest
 │
-├── preview.png # Preview image of the page
+├── preview.webp # Preview image of the page
 └── README.md # Project documentation
 ```
 
