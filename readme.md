@@ -96,7 +96,7 @@ Bento-Grid-TASK7/
 
 KISS-themed Bento Grid UI featuring the band lineup, albums, fan zone, and glowing neon layout.
 
-![KISS - Bento grid music interface Preview](./preview.png)
+![KISS - Bento grid music interface Preview](./preview.webp)
 
 ---
 
